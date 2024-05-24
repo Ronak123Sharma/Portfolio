@@ -25,7 +25,9 @@ const Hero = () => {
             </div>
             <h1 className="h1 mb-4">Hello my name is Ronak sharma</h1>
             <p className="subtitle max-[490px] mx-auto xl:mx-0">
-            Passionate web developer with a keen interest in cybersecurity, dedicated to creating secure and innovative digital solutions. Let’s build and protect the future together!
+              Passionate web developer with a keen interest in cybersecurity,
+              dedicated to creating secure and innovative digital solutions.
+              Let’s build and protect the future together!
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
