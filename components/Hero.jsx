@@ -9,7 +9,7 @@ import {
   RiArrowDownSLine,
 } from "react-icons/ri";
 
-import DevImg from "./Devimg";
+import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
 
@@ -36,10 +36,11 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-
-              <Button variant="secondary" className="gap-x-2">
-                My Resume <Download size={18} />
-              </Button>
+              <Link href="https://drive.google.com/file/d/1ed31vHQVF_ONESN8PnULVYuMIkaH3dCe/view?usp=sharing">
+                <Button variant="secondary" className="gap-x-2">
+                  My Resume <Download size={18} />
+                </Button>
+              </Link>
             </div>
             {/* Socials */}
             <Socials
