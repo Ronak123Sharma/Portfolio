@@ -2,7 +2,6 @@ import DevImg from "./DevImg";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-
 import {
   User2,
   MailIcon,
@@ -292,7 +291,7 @@ const About = () => {
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* Skills list */}
-                      <div className="bg-gray-200">
+                      <div className="bg-gray-100 rounded-md p-3">
                         {getData(skillData, "skills").data.map(
                           (item, index) => {
                             const { name, des } = item;
@@ -307,9 +306,7 @@ const About = () => {
                           }
                         )}
                       </div>
-                      <div>
-                        
-                      </div>
+                      <div></div>
                     </div>
                     {/* tools */}
                     <div>
