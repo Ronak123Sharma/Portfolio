@@ -292,13 +292,13 @@ const About = () => {
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* Skills list */}
-                      <div>
+                      <div className="bg-gray-200">
                         {getData(skillData, "skills").data.map(
                           (item, index) => {
                             const { name, des } = item;
                             return (
                               <div className="  mx-auto  xl:mx-0" key={index}>
-                                <div className="font-medium text-green-400">
+                                <div className="font-medium text-green-700">
                                   {name}
                                 </div>
                                 <div className="text-start">{des}</div>
