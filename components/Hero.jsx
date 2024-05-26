@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Security Analyst
             </div>
-            <h1 className="h1 mb-4">Hello my name is Ronak sharma</h1>
+            <h1 className="h1 mb-4">Hello my name is 'Ronak Sharma'</h1>
             <p className="subtitle max-[490px] mx-auto xl:mx-0">
               Passionate web developer with a keen interest in cybersecurity,
               dedicated to creating secure and innovative digital solutions.

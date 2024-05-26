@@ -2,6 +2,7 @@ import DevImg from "./DevImg";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
+
 import {
   User2,
   MailIcon,
@@ -75,11 +76,11 @@ const qualificationData = [
         role: "Web Developer",
         years: "Feb:2024 - May:2024",
       },
-      {
-        company: "JECRC Universirty",
-        role: "Web Developer",
-        years: "2021-2024",
-      },
+      // {
+      //   company: "JECRC Universirty",
+      //   role: "Web Developer",
+      //   years: "2021-2024",
+      // },
     ],
   },
 ];
@@ -92,13 +93,24 @@ const skillData = [
         // name: "HTML , CSS",
       },
       {
-        name: "Front End Development",
+        name: "Web Development",
+        des: "I create dynamic and responsive websites using HTML, CSS, and JavaScript, and build complex web applications with frameworks like React or Angular.",
       },
       {
-        name: "JAVAscript,Python",
+        name: "Python",
+        des: "I use Python to develop software applications, automate repetitive tasks, and analyze data. some libraries and frameworks",
       },
       {
-        name: "Cyber Security , Web Testing , Networking ",
+        name: "Cyber Security",
+        des: "I protect systems and data from unauthorized access by identifying vulnerabilities, setting up firewalls, and implementing best practices to defend against cyber threats.",
+      },
+      {
+        name: "Web Testing",
+        des: "I ensure the quality and functionality of websites through comprehensive testing. This includes checking for bugs, verifying that all features work correctly, and making sure the site performs well across different browsers and devices.",
+      },
+      {
+        name: "Networking ",
+        des: "I set up and manage computer networks, ensuring secure and efficient communication between devices, and have experience with the different protocols and troubleshooting network issues.",
       },
     ],
   },
@@ -283,17 +295,20 @@ const About = () => {
                       <div>
                         {getData(skillData, "skills").data.map(
                           (item, index) => {
-                            const { name } = item;
+                            const { name, des } = item;
                             return (
-                              <div
-                                className="w-2/4 text-center xl:text-left mx-auto  xl:mx-0"
-                                key={index}
-                              >
-                                <div className="font-medium">{name}</div>
+                              <div className="  mx-auto  xl:mx-0" key={index}>
+                                <div className="font-medium text-green-400">
+                                  {name}
+                                </div>
+                                <div className="text-start">{des}</div>
                               </div>
                             );
                           }
                         )}
+                      </div>
+                      <div>
+                        
                       </div>
                     </div>
                     {/* tools */}
