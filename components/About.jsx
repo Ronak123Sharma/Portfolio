@@ -24,7 +24,7 @@ const infoData = [
   // },
   {
     icon: <MailIcon size={20} />,
-    text: "sharmaronak10101@gmail.com",
+    text: "ronaksharma10101@gmail.com",
   },
   {
     icon: <Calendar size={20} />,
@@ -45,11 +45,6 @@ const qualificationData = [
     title: "education",
     data: [
       {
-        University: "JECRC University",
-        qualification: "bachelore in Computer Application",
-        years: "2021-2024",
-      },
-      {
         University: "Government Sr. Sec. School",
         qualification: "Board Of Secondary Education",
         years: "2019-2020",
@@ -59,6 +54,11 @@ const qualificationData = [
         qualification: "Board Of Senior Secondary Education",
         years: "2020-2021",
       },
+      {
+        University: "JECRC University",
+        qualification: "bachelore in Computer Application",
+        years: "2021-2024",
+      },
     ],
   },
 
@@ -66,15 +66,16 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "IBM Edunet Program",
-        role: "Security Intern",
-        years: "June:2023 - August:2023",
-      },
-      {
         company: "JECRC University",
         role: "Web Developer",
         years: "Feb:2024 - May:2024",
       },
+      {
+        company: "IBM Edunet Program",
+        role: "Security Intern",
+        years: "June:2023 - August:2023",
+      },
+
       // {
       //   company: "JECRC Universirty",
       //   role: "Web Developer",
@@ -291,13 +292,13 @@ const About = () => {
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
                       <div className="border-b border-border mb-4"></div>
                       {/* Skills list */}
-                      <div className="bg-gray-100 rounded-md p-3">
+                      <div className="dark:bg-transparent bg-gray-100 rounded-md p-3">
                         {getData(skillData, "skills").data.map(
                           (item, index) => {
                             const { name, des } = item;
                             return (
                               <div className="  mx-auto  xl:mx-0" key={index}>
-                                <div className="font-medium text-green-700">
+                                <div className="font-medium text-green-700 xl:text-center border-t-2 rounded-2xl">
                                   {name}
                                 </div>
                                 <div className="text-start">{des}</div>
@@ -306,10 +307,9 @@ const About = () => {
                           }
                         )}
                       </div>
-                      <div></div>
                     </div>
                     {/* tools */}
-                    <div>
+                    <div className="pt-0">
                       <h4 className="text-xl font-semibold m-2 xl:text-left">
                         Tools
                       </h4>

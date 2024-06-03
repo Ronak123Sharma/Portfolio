@@ -20,7 +20,7 @@ const Form = () => {
       </div>
       {/* input */}
       <div className="relative flex items-center">
-        <Textarea type="name" id="name" placeholder="Name" />
+        <Textarea type="name" id="name" placeholder="Message" />
         <MessageSquare className="absolute  top-4 right-6" size={20} />
       </div>
       <Button className="flex items-center gap-x-1 max-w-[166px]">

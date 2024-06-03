@@ -20,8 +20,8 @@ const projectData = [
     category: "Cyber Security",
     name: "Certfied Ethical Hacker",
     description:
-      "Attained the ethical hacking techniques, penetration testing methodologies, and defensive strategies.",
-    link: "/",
+      "Learned ethical hacking techniques, penetration testing methodologies, and defensive strategies, enabling me to identify and mitigate cybersecurity risks proactively and ethically",
+    link: "https://drive.google.com/file/d/1gb6zF2CaTZD_LbLLVPG29dtrIVnAZogd/view?usp=sharing",
     github: "/",
   },
   {
@@ -29,8 +29,8 @@ const projectData = [
     category: "Cyber Security",
     name: "Certfied Network Defender",
     description:
-      "Gained proficiency in network defense strategies, including network security controls, protocols etc.",
-    link: "https://drive.google.com/file/d/1If5ToeI16h_-Hx7aM08jMU7rSfKUmfPE/view?usp=sharing",
+      "Gained proficiency in network defense strategies, including network security controls, protocols, perimeter defenses, and secure firewall configuration etc.",
+    link: "https://drive.google.com/file/d/1Ei-Chj2pYKsHXSSuBS6IO7F-uLHkmleN/view?usp=sharing",
     github: "/",
   },
   {
@@ -38,8 +38,8 @@ const projectData = [
     category: "Cyber Security",
     name: "EC Council Certified Security Specialist",
     description:
-      "Acquired comprehensive knowledge in network security, ethical hacking, and information security management, ",
-    link: "/",
+      "Acquired comprehensive knowledge in network security, ethical hacking, and information security management, equipping me with the skills to safeguard systems and data from cyber threats.",
+    link: "https://drive.google.com/file/d/1kPAgbAYd559tp7hYDXBGhlltX7Jo-KB3/view?usp=sharing",
     github: "/",
   },
   {
@@ -47,8 +47,8 @@ const projectData = [
     category: "Cyber Security",
     name: "Cisco Cybersecurity Essential",
     description:
-      "Developed a foundational understanding of cybersecurity principles, including network security, cryptography, and cyber threats.",
-    link: "/",
+      "Developed a foundational understanding of cybersecurity principles, including network security, cryptography, and cyber threats, as well as practical skills in securing network devices and data.",
+    link: "https://drive.google.com/file/d/1UzF2-01DncT3-p-shu4n7841Rt5k8YJ7/view?usp=sharing",
     github: "/",
   },
   {
@@ -56,8 +56,8 @@ const projectData = [
     category: "Web Development",
     name: "Boot Camp development ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos mollitia repudiandae fugit omnis.",
-    link: "/",
+      "Led the design and execution of comprehensive boot camps, equipping participants with essential skills and knowledge in web development.",
+    link: "https://drive.google.com/file/d/1An_bIHHHshRBLXWCH2CEf-Fd-s5IMpoB/view?usp=sharing",
     github: "/",
   },
   {
@@ -65,7 +65,7 @@ const projectData = [
     category: "Networking",
     name: "EC Council Certified Security Specialis",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos mollitia repudiandae fugit omnis.",
+      "Acquired comprehensive knowledge in network security, ethical hacking, and information security management, equipping me with the skills to safeguard systems and data from cyber threats.",
     link: "/",
     github: "/",
   },
@@ -74,8 +74,8 @@ const projectData = [
     category: "Web Development",
     name: "Micorsoft Development Completion Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos mollitia repudiandae fugit omnis.",
-    link: "/",
+      "Successfully completed a comprehensive project focusing on Microsoft development technologies.",
+    link: "https://drive.google.com/file/d/1_erTBkfMfwUzn-dKjXBKfyXH_GcY4kGT/view?usp=sharing",
     github: "/",
   },
   {
@@ -83,8 +83,8 @@ const projectData = [
     category: "Web Development",
     name: "Data Analytics Certification",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos mollitia repudiandae fugit omnis.",
-    link: "/",
+      "Attained expertise in data analysis methodologies, tools, and techniques, enabling insightful decision-making and strategic planning based on data-driven insights.",
+    link: "https://drive.google.com/file/d/1jB8lMGoI4ODNo_ZJ7oQvWdDwwqU-4RkR/view?usp=sharing",
     github: "/",
   },
   {
@@ -92,8 +92,8 @@ const projectData = [
     category: "Web Development",
     name: "Alibaba Low Code Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos mollitia repudiandae fugit omnis.",
-    link: "https://drive.google.com/file/d/1If5ToeI16h_-Hx7aM08jMU7rSfKUmfPE/view?usp=sharing",
+      "Acquired proficiency in low-code development on Alibaba Cloud, empowering rapid application development and deployment while optimizing efficiency.",
+    link: "https://drive.google.com/file/d/12M0s0wB77wRS2j4XGqXocvL8oWMgbzvT/view?usp=sharing",
     github: "/",
   },
 ];
@@ -105,7 +105,9 @@ const Work = () => {
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">My Certifications</h2>
           <p className="subtitle mb-8">
-          Demonstrating my commitment to continuous learning and professional development, these certifications validate my expertise in web development, cybersecurity, and user experience design
+            Demonstrating my commitment to continuous learning and professional
+            development, these certifications validate my expertise in web
+            development, cybersecurity, and user experience design
           </p>
           <Link href="/certificates">
             <Button>All Certificates</Button>
@@ -114,7 +116,7 @@ const Work = () => {
         {/* Slider */}
         <div className="xl:max-w-[1000px] xl:absolute right-0 top-0">
           <Swiper
-            className="h-[480px]"
+            className="h-auto xl:h-[580px]"
             slidesPerView={1}
             breakpoints={{
               640: {

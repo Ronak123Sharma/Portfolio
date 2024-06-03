@@ -31,7 +31,7 @@ const Contact = () => {
             {/* mail */}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
-              <div>sharmaronak10101@gmail.com</div>
+              <div>ronaksharma10101@gmail.com</div>
             </div>
             {/* Address */}
             <div className="flex items-center gap-x-8">
