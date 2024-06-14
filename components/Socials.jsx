@@ -20,7 +20,7 @@ const icons = [
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/Ronak123Sharma",
     name: <RiGithubFill />,
   },
   // {
