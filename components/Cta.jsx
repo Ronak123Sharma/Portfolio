@@ -9,8 +9,9 @@ const Cta = () => {
           <h2 className="h3 max-w-xl text-center mb-8">
             I am willing to work with you
           </h2>
-          <Link href='/contact'>
-          <Button>Contact me</Button></Link>
+          <Link href="/contact">
+            <Button>Contact me</Button>
+          </Link>
         </div>
       </div>
     </section>

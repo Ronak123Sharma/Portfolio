@@ -11,15 +11,15 @@ import { Description } from "@radix-ui/react-dialog";
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "web design",
+    title: "Security Analysis",
     description:
-      "Crafting visually stunning and user-friendly websites tailored to your unique vision, ensuring an engaging and seamless user experience.",
+      "Comprehensive security assessments to identify vulnerabilities and protect your digital assets from potential threats and breaches..",
   },
   {
     icon: <ShieldCheck size={72} strokeWidth={0.8} />,
-    title: "Security Analysis",
+    title: "web design",
     description:
-      "Comprehensive security assessments to identify vulnerabilities and protect your digital assets from potential threats and breaches.",
+      "Crafting visually stunning and user-friendly websites tailored to your unique vision, ensuring an engaging and seamless user experience",
   },
   {
     icon: <FolderLock size={72} strokeWidth={0.8} />,

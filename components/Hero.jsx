@@ -21,7 +21,7 @@ const Hero = () => {
           {/* text */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Security Analyst
+              Cyber Security Analyst
             </div>
             <h1 className="h1 mb-4">
               Hello my Name is
@@ -60,14 +60,14 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[24%] -left-[5rem]"
               icon={<RiBriefcase4Fill />}
-              endCountNum={3}
+              endCountNum={1}
               badgeText="Years of Experience"
             />
             {/* Badge 2 */}
             <Badge
               containerStyles="absolute top-[80%] -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={4}
+              endCountNum={2}
               // endCountText='4'
               badgeText="Finished Projects"
             />
@@ -77,7 +77,7 @@ const Hero = () => {
               icon={<RiTodoFill />}
               endCountNum={4}
               // endCountText='4'
-              badgeText="Good Feedback"
+              badgeText="Cyber Certification"
             />
             <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg

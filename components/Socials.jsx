@@ -28,7 +28,7 @@ const icons = [
   //   name: <RiFacebookFill />,
   // },
   {
-    path: "https://www.instagram.com/",
+    path: "https://www.instagram.com/cyberknowledgevault/",
     name: <RiInstagramFill />,
   },
 ];
